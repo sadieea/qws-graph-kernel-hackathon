@@ -1,7 +1,8 @@
 # Quantum Walk Signatures (QWS) for Molecular Classification
-
-**Author:** Sadiya Ansari  
-**Hackathon:** QunaSys Quantum Hackathon Challenge, October 2025
+**Team Name:** QStar  
+**Team Member:** Sadiya Ansari  
+**Hackathon:** Quantum Poland Hackathon Challenge    
+**Problem Statement:** QML
 
 ---
 
@@ -19,30 +20,11 @@ These vectors are then used with **Support Vector Machines (SVMs)** for classifi
 
 ---
 
-## Repository Structure
-
-Quantum-Walk-Signature/
-├── QuantumWalkSignature.py # Main Python file (single entry point)
-├── report/
-│ └── Quantum_Walk_Signature_Hackathon.pdf
-├── datasets/
-│ ├── MUTAG/
-│ ├── PROTEINS/
-│ ├── PTC-MR/
-│ ├── NCI1/
-│ └── AIDS/
-├── requirements.txt # Python dependencies
-└── README.md
-
-text
-
----
-
 ## Installation
 
 Clone the repository and install dependencies:
 
-git clone <repo_url>
+git clone <https://github.com/sadieea/qws-graph-kernel-hackathon>
 cd Quantum-Walk-Signature
 pip install -r requirements.txt
 
@@ -74,16 +56,20 @@ The script will:
 | Dataset  | Method | Accuracy | F1-Score |
 |-----------|---------|-----------|-----------|
 | MUTAG     | QWS     | 0.86      | 0.85      |
-|           | EFV     | 0.85      | 0.85      |
+|           | EFV     | 0.85      | 0.84      |
 |           | WL      | 0.85      | 0.85      |
-| PROTEINS  | QWS     | 0.74      | 0.72      |
-|           | EFV     | 0.72      | 0.72      |
-|           | WL      | 0.71      | 0.71      |
-| PTC-MR    | QWS     | 0.65      | 0.63      |
-|           | EFV     | 0.61      | 0.61      |
-|           | WL      | 0.63      | 0.62      |
-| NCI1      | QWS     | TBD       | TBD       |
-| AIDS      | QWS     | TBD       | TBD       |
+| PROTEINS  | QWS     | 0.74      | 0.74      |
+|           | EFV     | 0.71      | 0.70      |
+|           | WL      | 0.72      | 0.71      |
+| PTC-MR    | QWS     | 0.65      | 0.64      |
+|           | EFV     | 0.63      | 0.63      |
+|           | WL      | 0.61      | 0.61      |
+| NCI1      | QWS     | 0.87      | 0.87      |
+|           | EFV     | 0.83      | 0.82      |
+|           | WL      | 0.84      | 0.83      |
+| AIDS      | QWS     | 0.82      | 0.81      |
+|           | EFV     | 0.81      | 0.81      |
+|           | WL      | 0.81      | 0.80      |
 
 *Note:* “TBD” indicates datasets where results are pending.
 
