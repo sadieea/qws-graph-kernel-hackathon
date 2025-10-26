@@ -19,7 +19,30 @@ These vectors are then used with **Support Vector Machines (SVMs)** for classifi
 **Datasets:** MUTAG, PROTEINS, PTC-MR, NCI1, AIDS (TU Dortmund repository)
 
 ---
+### Repository Structure
+```
+Quantum-Walk-Signature/
+│
+├── QuantumWalkSignature.py # Main Python file (single entry point)
+│
+├── report/
+│ └── Quantum_Walk_Signature_Hackathon.pdf
+│
+├── datasets/
+│ ├── MUTAG/
+│ ├── PROTEINS/
+│ ├── PTC-MR/
+│ ├── NCI1/
+│ └── AIDS/
+│
+├── requirements.txt # Python dependencies
+└── README.md
+```
 
+---
+### Presentation Video 
+
+---
 ## Installation
 
 Clone the repository and install dependencies:
